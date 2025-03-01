@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Naveen Automation Test">
+  <test thread-count="5" name="Different testNG Feature Test">
+    <classes>
+      <class name="testngnaveen.GoogleTitleTest"/>
+      <class name="testngnaveen.InvocationCountTest"/>
+      <class name="testngnaveen.ExceptionTimeOutTest"/>
+      <class name="testngnaveen.GoogleTest"/>
+      <class name="testngnaveen.TestNgFeatures"/>
+      <class name="testngnaveen.TestNGbasics"/>
+    </classes>
+  </test> <!-- Different testNG Feature Test -->
+</suite> <!-- TestNG Naveen Automation Test -->

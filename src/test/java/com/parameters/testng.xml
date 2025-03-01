@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Yahoo App Test Automation">
+	<test thread-count="5" name="Login Test">
+
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="url"
+			value="https://login.yahoo.com/?.intl=in"></parameter>
+		<parameter name="emailId" value="test@yahoo.com"></parameter>
+		<classes>
+			<class name="com.parameters.ParameterTest" />
+		</classes>
+	</test> <!-- Login Test -->
+</suite> <!-- Yahoo App Test Automation -->
